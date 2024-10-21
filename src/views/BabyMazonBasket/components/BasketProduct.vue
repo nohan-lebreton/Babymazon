@@ -30,7 +30,7 @@ const emit = defineEmits(['delete'])
 
 const deleteItem = () => {
   console.log('deleteEmit')
-  emit('delete', props.id, props.quantity) // Tu peux aussi émettre d'autres données comme l'ID de l'article si nécessaire
+  emit('delete', props.id, props.quantity)
 }
 </script>
 

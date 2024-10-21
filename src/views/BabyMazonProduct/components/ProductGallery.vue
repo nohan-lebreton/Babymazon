@@ -4,17 +4,15 @@ import { ref } from 'vue'
 
 const props = defineProps({
   imagePathList: {
-    type: Array, // Spécifie que c'est un tableau de chaînes
+    type: Array,
     required: true
   }
 })
-//console.log(props.imagePathList)
 
-// Créez un tableau d'objets pour la galerie
 const images = ref(
   props.imagePathList.map((imagePath) => ({
-    itemImageSrc: imagePath, // Utilise chaque élément du tableau comme source de l'image principale
-    thumbnailImageSrc: imagePath, // Utilise la même image pour la miniature
+    itemImageSrc: imagePath,
+    thumbnailImageSrc: imagePath,
     alt: 'Image description'
   }))
 )
@@ -42,14 +40,12 @@ const responsiveOptions = ref([
       :numVisible="5"
       containerStyle="max-width: 500px"
     >
-      <!-- Template pour afficher l'image principale avec taille fixe -->
       <template #item="slotProps">
         <div class="image-container">
           <img :src="slotProps.item.itemImageSrc" :alt="slotProps.item.alt" />
         </div>
       </template>
 
-      <!-- Template pour afficher les miniatures avec ajustement des dimensions -->
       <template #thumbnail="slotProps">
         <div class="thumbnail-container">
           <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" />
@@ -60,11 +56,10 @@ const responsiveOptions = ref([
 </template>
 
 <style scoped>
-/* Fixer la taille du conteneur de l'image principale */
 .image-container {
   padding: 20px;
-  width: 400px; /* Largeur fixe */
-  height: 400px; /* Hauteur fixe */
+  width: 400px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,13 +68,12 @@ const responsiveOptions = ref([
 .image-container img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ajuste l'image tout en couvrant l'espace disponible */
+  object-fit: contain;
 }
 
-/* Fixer la taille du conteneur des miniatures */
 .thumbnail-container {
-  width: 50px; /* Largeur des miniatures */
-  height: 50px; /* Hauteur des miniatures */
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +82,7 @@ const responsiveOptions = ref([
 .thumbnail-container img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ajuste les miniatures également */
+  object-fit: contain;
 }
 
 .galleria {

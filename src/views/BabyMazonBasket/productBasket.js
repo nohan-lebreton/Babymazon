@@ -61,24 +61,15 @@ export const useProductBasket = defineStore('productBasket', {
       })
     },
     removeProductToBasket(productId, quantity) {
-      //console.log(productId, quantity)
       const productStocks = useProductStock()
       const productStock = productStocks.getStockById(productId)
-      //console.log('productStock=')
-      //console.log(productStock)
       const productBasket = this.getProdudctBasketById(productId)
-      //console.log('productBasket=')
-      //console.log(productBasket)
 
       if (productBasket.productId == productId) {
-        //console.log('trouvé')
         productBasket.quantity -= quantity
-        //console.log(productBasket.quantity)
         productStock.quantity += quantity
-        //console.log(productStock.quantity)
         productStocks.updateStatus(productStock)
         if (productBasket.quantity <= 0) {
-          //console.log('deleteProductToBasket')
           this.deleteProductToBasket(productBasket)
         }
       }

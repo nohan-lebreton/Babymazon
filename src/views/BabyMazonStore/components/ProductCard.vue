@@ -39,11 +39,9 @@ const props = defineProps({
   }
 })
 
-// Créer une variable locale pour gérer l'évaluation
 const localImagePath = ref(props.imagePath)
 const localStars = ref(props.stars)
 const localId = ref(props.id)
-//console.log(localId.value)
 </script>
 
 <template>
@@ -119,8 +117,8 @@ const localId = ref(props.id)
 
 .content {
   display: flex;
-  flex-direction: column; /* Aligne les éléments en colonne */
-  align-items: flex-start; /* Aligne les éléments à gauche */
+  flex-direction: column;
+  align-items: flex-start;
   font-size: 30px;
 }
 
@@ -160,11 +158,11 @@ img {
 }
 
 .custom-link {
-  color: rgb(0, 0, 0); /* Couleur du texte */
-  text-decoration: none; /* Supprime le soulignement */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .custom-link:hover {
-  color: #f3a847; /* Couleur au survol */
+  color: #f3a847;
 }
 </style>

@@ -29,10 +29,8 @@ const props = defineProps({
   }
 })
 
-// État pour afficher ou masquer la description complète
 const showFullDescription = ref(false)
 
-// Fonction pour basculer l'affichage de la description
 const toggleDescription = () => {
   showFullDescription.value = !showFullDescription.value
 }
@@ -80,8 +78,8 @@ const description = props.description
   height: fit-content;
   margin-left: 5%;
   margin-right: 5%;
-  flex-grow: 1; /* Le composant grandira pour occuper tout l'espace disponible */
-  flex-shrink: 1; /* Le composant se réduira en cas de manque d'espace */
+  flex-grow: 1;
+  flex-shrink: 1;
   min-width: 250px;
 }
 
