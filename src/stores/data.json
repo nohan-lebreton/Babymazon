@@ -1,0 +1,82 @@
+[
+  {
+    "id": "393f5274-2eeb-4641-90f9-ea1566827b3b",
+    "name": "Deror Smiley Mug, Ceramic Mug Cartoon Water Cup, 300 ml",
+    "description": "Mug Designed with cute cartoon patterns, small and delicate, exquisite and unique. Smiley cup design with a capacity of 300 ml, suitable for water, milk, cocoa, coffee and other drinks. Ceramic Mug Selected high-quality ceramic materials, durable and durable, safe and non-toxic. Practical mug, no heating in the microwave, hand washing is recommended. It is a perfect gift for any coffee lover fans, widely used in homes, schools and offices.",
+    "imagePath": [
+      "/product/kitchen/legoMug/1.jpg",
+      "/product/kitchen/legoMug/2.jpg",
+      "/product/kitchen/legoMug/3.jpg",
+      "/product/kitchen/legoMug/4.jpg",
+      "/product/kitchen/legoMug/5.jpg",
+      "/product/kitchen/legoMug/6.jpg"
+    ],
+    "onSale": 20,
+    "price": 19.99,
+    "category": "Kitchen",
+    "status": "In stock",
+    "stars": 3.5
+  },
+  {
+    "id": "393f5274-2eeb-4641-90f9-ea1566827b3b",
+    "name": "Deror Smiley Mug, Ceramic Mug Cartoon Water Cup, 300 ml",
+    "description": "Mug Designed with cute cartoon patterns, small and delicate, exquisite and unique. Smiley cup design with a capacity of 300 ml, suitable for water, milk, cocoa, coffee and other drinks. Ceramic Mug Selected high-quality ceramic materials, durable and durable, safe and non-toxic. Practical mug, no heating in the microwave, hand washing is recommended. It is a perfect gift for any coffee lover fans, widely used in homes, schools and offices.",
+    "imagePath": [
+      "/product/kitchen/legoMug/1.jpg",
+      "/product/kitchen/legoMug/2.jpg",
+      "/product/kitchen/legoMug/3.jpg",
+      "/product/kitchen/legoMug/4.jpg",
+      "/product/kitchen/legoMug/5.jpg",
+      "/product/kitchen/legoMug/6.jpg"
+    ],
+    "onSale": 20,
+    "price": 19.99,
+    "category": "Kitchen",
+    "status": "In stock",
+    "stars": 3.5
+  },
+  {
+    "id": "518865ec-41f1-4413-9bd1-9670823afc84",
+    "name": "SALFEE Lot de 2 paires de baguettes chinoises en grain de dragon pour mariage",
+    "description": "Mug Designed with cute cartoon patterns, small and delicate, exquisite and unique. Smiley cup design with a capacity of 300 ml, suitable for water, milk, cocoa, coffee and other drinks. Ceramic Mug Selected high-quality ceramic materials, durable and durable, safe and non-toxic. Practical mug, no heating in the microwave, hand washing is recommended. It is a perfect gift for any coffee lover fans, widely used in homes, schools and offices.",
+    "imagePath": ["/product/kitchen/chopstick/1.jpg"],
+    "onSale": null,
+    "price": 28.33,
+    "category": "Kitchen",
+    "status": "Low stock",
+    "stars": 1.5
+  },
+  {
+    "id": "cb431248-bd5f-4d44-be67-58ab49cecabf",
+    "name": "Nescafé Dolce Gusto Caffe Lungo, Pack of 3, 3 x 16 Capsules",
+    "description": "Nescafe Dolce Gusto Caffe lungo for machines. An elegant cup of full-bodied coffee with a rich creamy velvety aroma. Pack of 48. ond328151 This food/beverage product is open",
+    "imagePath": ["/product/kitchen/coffee/1.jpg"],
+    "onSale": 5,
+    "price": 23.99,
+    "category": "Kitchen",
+    "status": "Out of stock",
+    "stars": 4.5
+  },
+  {
+    "id": "a68e7a6d-d674-40c2-96ac-eaebb90e32b5",
+    "name": "Architecture logicielle propre Paperback – Illustrated, 27 Nov. 2020",
+    "description": "Vous n imaginez pas le temps qu une architecture logicielle bien soignée dès le départ peut vous faire gagner. Vous pouvez augmenter fortement la productivité du développement tout au long du cycle de vie des applications. Dans la lignée de son bestseller international Coder proprement, le légendaire Robert C. Martin, dit \"Oncle Bob\", vous présente les règles universelles de l architecture logicielle, et comment les appliquer. Fidèle à l esprit des travaux d Oncle Bob, ce livre regorge de solutions pragmatiques et claires pour affronter vos vrais défis : ceux que vous devez relever pour mener vos projets au succès. Découvrez les objectifs d un architecte logiciel, et les disciplines et pratiques essentielles pour les remplir. Maîtrisez les grands principes de la conception logicielle en termes de fonctions, de séparation des composants et de gestion des données. Familiarisez-vous avec dix principes (ADP, CCP, CRP, DIP, ISP, LSP, OCP, REP, SAP et SDP). Comprenez en quoi les paradigmes de programmation imposent une discipline en bornant les activités des développeurs. Faites la différence entre l essentiel et l accessoire. Mettez en place des structures de haut niveau optimales pour toutes vos applications : web, bases de données, clients lourds, console et embarqué. Tracez des frontières et créez des couches pour organiser vos composants et services. Repérez les erreurs de conception et d architecture et apprenez à les éviter et à les corriger. Architecture logicielle propre est une lecture indispensable pour tout architecte logiciel, en devenir ou chevronné, pour tout analyste, architecte système, ingénieur logiciel et pour tout développeur travaillant à partir des modèles d architectures déjà établis.",
+    "imagePath": ["/product/books/archiPropre/1.jpg"],
+    "onSale": 10,
+    "price": 38.0,
+    "category": "Books",
+    "status": "Low stock",
+    "stars": 4.5
+  },
+  {
+    "id": "9cc1c05c-5fa2-4c9c-b1f5-e57e54f1bfe3",
+    "name": "Intégrale Le Seigneur des Anneaux (Nouvelle traduction) Pocket Book",
+    "description": "Une contrée paisible où vivent les Hobbits. Un anneau magique à la puissance infinie. Sauron, son créateur, prêt à dévaster le monde entier pour récupérer son bien. Frodon, jeune Hobbit, détenteur de l'Anneau malgré lui. Gandalf, le Magicien, venu avertir Frodon du danger. Et voilà déjà les Cavaliers Noirs qui approchent...",
+    "imagePath": ["/product/books/lotr/1.jpg"],
+    "onSale": null,
+    "price": 22.0,
+    "category": "Books",
+    "status": "Out of stock",
+    "stars": 4.7
+  }
+]
